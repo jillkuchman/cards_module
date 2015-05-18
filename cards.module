@@ -3,21 +3,21 @@
     function cards_menu()
     {
         $items = array();
-        $items['cards_max'] = array(
+        $items['cards/max'] = array(
             'title' => 'Max',
-            'page callback' => 'cards/max',
+            'page callback' => 'cards_max',
             'access callback' => TRUE,
             'type' => MENU_NORMAL_ITEM,
         );
-        $items['cards_diane'] = array(
+        $items['cards/diane'] = array(
             'title' => 'Diane',
-            'page callback' => 'cards/diane',
+            'page callback' => 'cards_diane',
             'access callback' => TRUE,
             'type' => MENU_NORMAL_ITEM,
         );
-        $items['cards_santa'] = array(
+        $items['cards/santa'] = array(
             'title' => 'Santa',
-            'page callback' => 'cards/santa',
+            'page callback' => 'cards_santa',
             'access callback' => TRUE,
             'type' => MENU_NORMAL_ITEM,
         );

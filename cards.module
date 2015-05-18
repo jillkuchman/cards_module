@@ -1,0 +1,35 @@
+<?php
+
+    function cards_menu()
+    {
+        $items = array();
+        $items['cards_max'] = array(
+            'title' => 'Max',
+            'page callback' => 'cards/max',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+        $items['cards_diane'] = array(
+            'title' => 'Diane',
+            'page callback' => 'cards/diane',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+        $items['cards_santa'] = array(
+            'title' => 'Santa',
+            'page callback' => 'cards/santa',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+        return $items;
+    }
+
+    function cards_max() {
+        return 'To Valhallahhhh';
+    }
+    function cards_diane() {
+        return 'You are Epicodawesome';
+    }
+    function cards_santa() {
+        return 'Feliz Navidad';
+    }

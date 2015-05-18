@@ -1,0 +1,5 @@
+name = Cards
+description = Creates menu items displaying greeting cards for different friends.
+package = Epicodus Examples
+core = 7.x
+files[] = cards.module
